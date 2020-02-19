@@ -1,0 +1,31 @@
+#map { 
+    height: 100%; 
+    width: 100%; 
+    position:absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: 0; /* Set z-index to 0 as it will be on a layer below the contact form */
+}
+.footer {
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #ffffff;
+    opacity: .4;
+    color: black;
+    text-align: center;
+    padding-top:10px;
+}
+.centerCard {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    margin: auto;
+}
