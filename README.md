@@ -35,13 +35,13 @@ R::setup('mysql:host=<DATABASE_ADDRESS>;dbname=<DATABASE_NAME>>', '<USERNAME>', 
 
 | Method | Endpoint | Response |
 | ------ | ------ | ------ |
-| GET | [/api/user/findAll.php][PlDb] | Returns list of users |
-| POST | [/api/user/add.php][PlGh] | Response code and message |
-| POST | [/api/user/login.php][PlGd] | Response code and message |
-| GET | [/api/defib/findAll.php][PlOd] | Returns list of defibrillators |
-| GET | [/api/defib/find.php?id={id}][PlMe] | Returns defibrillator with id |
-| POST | [/api/defib/add.php][PlGa] | Response code and message
-| POST | [/api/report/add.php][PlGa] | Response code and message
+| GET | /api/user/findAll.php | Returns list of users |
+| POST | /api/user/add.php | Response code and message |
+| POST | /api/user/login.php | Response code and message |
+| GET | /api/defib/findAll.php | Returns list of defibrillators |
+| GET | /api/defib/find.php?id={id} | Returns defibrillator with id |
+| POST | /api/defib/add.php| Response code and message
+| POST | /api/report/add.php | Response code and message
 
 ### Screenshots
 
